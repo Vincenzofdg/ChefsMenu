@@ -1,15 +1,18 @@
-//
-//  TypeMenuGrid.swift
-//  ChefsMenu
-//
-//  Created by Vincenzo Di Giacomo on 22/11/23.
-//
-
 import SwiftUI
 
 struct TypeMenuGrid: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LazyHGrid(rows: [
+            GridItem(.fixed(100)),
+            GridItem(.fixed(100))
+        ], content: {
+            ForEach(typeOrderMock) { order in
+                
+                Image(order.image)
+//                Text(order.name)
+            }
+        })
     }
 }
 

@@ -1,8 +1,7 @@
-//
-//  TypeMenu.swift
-//  ChefsMenu
-//
-//  Created by Vincenzo Di Giacomo on 22/11/23.
-//
-
 import Foundation
+
+struct TypeMenu: Identifiable {
+    let id: Int
+    let name: String
+    let image: String
+}
