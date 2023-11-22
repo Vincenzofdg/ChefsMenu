@@ -1,0 +1,38 @@
+# Xcode
+.DS_Store
+xcuserdata/
+
+# Swift
+.build/
+DerivedData/
+
+# macOS
+.DS_Store
+.idea/
+
+# iOS
+*.hmap
+*.ipa
+*.xcarchive
+*.xcuserstate
+project.xcworkspace/
+
+# Swift Package Manager
+Packages/
+Package.resolved
+
+# Compiled Swift source
+.swiftpm/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+*.xcworkspace/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
