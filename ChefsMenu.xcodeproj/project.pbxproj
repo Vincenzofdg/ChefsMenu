@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D011D5A2B0E3F97007ABC4C /* TypeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D011D592B0E3F96007ABC4C /* TypeOrderView.swift */; };
 		4D81E27E2B0DB43D008CE0A2 /* ChefsMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E27D2B0DB43D008CE0A2 /* ChefsMenuApp.swift */; };
 		4D81E2802B0DB43D008CE0A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D81E27F2B0DB43D008CE0A2 /* ContentView.swift */; };
 		4D81E2822B0DB43F008CE0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D81E2812B0DB43F008CE0A2 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D011D592B0E3F96007ABC4C /* TypeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOrderView.swift; sourceTree = "<group>"; };
 		4D81E27A2B0DB43D008CE0A2 /* ChefsMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefsMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D81E27D2B0DB43D008CE0A2 /* ChefsMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefsMenuApp.swift; sourceTree = "<group>"; };
 		4D81E27F2B0DB43D008CE0A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4D81E2902B0DCE7C008CE0A2 /* TypeMenuGrid.swift */,
+				4D011D592B0E3F96007ABC4C /* TypeOrderView.swift */,
 			);
 			path = GridView;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D81E2802B0DB43D008CE0A2 /* ContentView.swift in Sources */,
+				4D011D5A2B0E3F97007ABC4C /* TypeOrderView.swift in Sources */,
 				4D81E27E2B0DB43D008CE0A2 /* ChefsMenuApp.swift in Sources */,
 				4D81E2962B0DD65B008CE0A2 /* DataSourceMock.swift in Sources */,
 				4D81E2942B0DD5B1008CE0A2 /* TypeMenu.swift in Sources */,

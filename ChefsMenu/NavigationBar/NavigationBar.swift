@@ -3,6 +3,9 @@ import SwiftUI
 struct NavigationBar: View {
     var body: some View {
         HStack {
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Image("menu")
+            })
             Spacer()
             Button("R. Antonio Ribeirão 56") {
                 
@@ -19,6 +22,7 @@ struct NavigationBar: View {
                     
             })
         }
+        .padding()
 
     }
 }
@@ -26,5 +30,5 @@ struct NavigationBar: View {
 #Preview {
     NavigationBar()
         .previewLayout(.sizeThatFits)
-        .padding()
+ 
 }
